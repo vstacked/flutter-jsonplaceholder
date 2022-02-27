@@ -1,16 +1,6 @@
-# majoo_pretest
+## Flow Aplikasi
+- masuk home page, fetch semua post dari API kemudian ditampilkan. ketika error memunculkan snackbar
+- search di text field by id post. ketika tersedia menampilkan 1 post berdasarkan id, ketika kosong memunculkan text post empty, dan ketika gagal/error muncul snackbar
+- ketika memasukkan value di field, ada close button untuk mereset state agar kembali fetch semua posts dari API
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/54944887/155893645-0e061a5f-0ddb-4bda-8df4-249f61fa38d5.png" height="300"> <img src="https://user-images.githubusercontent.com/54944887/155893647-532463f4-eee1-4fab-9410-bbec9232d945.png" height="300"> <img src="https://user-images.githubusercontent.com/54944887/155893650-7ee95b91-b346-4e5e-a8ec-178c632a1203.png" height="300"> <img src="https://user-images.githubusercontent.com/54944887/155893653-a077c619-c944-44f1-8224-bbfaa1632507.png" height="300"> <img src="https://user-images.githubusercontent.com/54944887/155893654-86be35af-f8b1-40c0-8b66-6266dc5965ca.png" height="300"> <img src="https://user-images.githubusercontent.com/54944887/155893655-7b81c17f-33fa-4711-9b03-a1769030dd2c.png" height="300"> <img src="https://user-images.githubusercontent.com/54944887/155893659-22156ebf-4a16-4c3c-ac31-012a6ff353c2.png" height="300">
