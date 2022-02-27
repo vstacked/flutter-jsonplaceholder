@@ -15,7 +15,7 @@ class ApiRepository extends DioProvider implements _IApiRepository {
         return Left('Error Occurred');
       }
     } on DioError catch (e) {
-      if (e.response!.statusCode == 404) return Right(null);
+      if (e.response?.statusCode == 404) return Right(null);
       return Left('Error Occurred');
     } catch (e) {
       return Left('Error Occurred');
